@@ -1,0 +1,1545 @@
+2023.12.01 10:46:05 INFO  Started: Metals version 1.1.0 in folders '/home/thelesso/dev/adventOfCode/day1' for client Visual Studio Code 1.83.1.[0m
+2023.12.01 10:46:10 INFO  no build target found for /home/thelesso/dev/adventOfCode/day1/Main.scala. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2023.12.01 10:46:11 INFO  Attempting to connect to the build server...[0m
+2023.12.01 10:46:11 INFO  Running BSP server List(/home/thelesso/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/thelesso/dev/adventOfCode/day1/.scala-build/ide-options-v2.json, /home/thelesso/dev/adventOfCode/day1)[0m
+2023.12.01 10:46:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/thelesso/dev/adventOfCode/day1/.metals/bsp.trace.json or /home/thelesso/.cache/metals/bsp.trace.json[0m
+Dec 01, 2023 10:46:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Dec 01, 2023 10:46:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Dec 01, 2023 10:46:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+2023.12.01 10:46:11 WARN  no build target for: /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:46:12 INFO  BSP server: Checking https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.12.01 10:46:12 INFO  BSP server: Checked https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.12.01 10:46:12 INFO  BSP server: Downloading https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.12.01 10:46:12 INFO  BSP server: Downloaded https://github.com/coursier/jvm-index/raw/master/index.json[0m
+2023.12.01 10:46:12 INFO  BSP server: Starting compilation server[0m
+2023.12.01 10:46:13 WARN  no build target for: /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:46:16 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/[0m
+2023.12.01 10:46:16 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/[0m
+2023.12.01 10:46:16 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml[0m
+2023.12.01 10:46:16 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml[0m
+2023.12.01 10:46:16 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.12.01 10:46:16 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.12.01 10:46:16 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.12.01 10:46:16 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/[0m
+2023.12.01 10:46:16 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.12.01 10:46:16 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.12.01 10:46:16 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.12.01 10:46:16 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.12.01 10:46:17 INFO  time: Connected to build server in 5.49s[0m
+2023.12.01 10:46:17 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.12.01 10:46:17 INFO  time: Imported build in 0.32s[0m
+2023.12.01 10:46:18 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:46:19 INFO  time: indexed workspace in 1.78s[0m
+2023.12.01 10:46:25 INFO  time: compiled day1_bd2c96d2de in 7.29s[0m
+2023.12.01 10:47:12 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:47:12 INFO  time: compiled day1_bd2c96d2de in 0.79s[0m
+2023.12.01 10:47:24 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:47:24 INFO  time: compiled day1_bd2c96d2de in 0.45s[0m
+2023.12.01 10:47:46 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:47:47 INFO  time: compiled day1_bd2c96d2de in 1.25s[0m
+Exception in thread "pool-6-thread-1" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2023.12.01 10:50:05 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:50:07 INFO  time: compiled day1_bd2c96d2de in 1.72s[0m
+2023.12.01 10:50:16 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:50:16 INFO  time: compiled day1_bd2c96d2de in 0.62s[0m
+2023.12.01 10:50:25 ERROR Failed to tokenize input for semantic tokens for /home/thelesso/dev/adventOfCode/day1/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:4: error: unclosed string interpolation
+        val x = l")
+                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:659)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:357)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2023.12.01 10:50:25 ERROR Failed to tokenize input for semantic tokens for /home/thelesso/dev/adventOfCode/day1/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:4: error: unclosed string literal
+        val x ")
+              ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2023.12.01 10:50:26 ERROR Failed to tokenize input for semantic tokens for /home/thelesso/dev/adventOfCode/day1/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:4: error: unclosed string interpolation
+        val x")
+              ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:659)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:357)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2023.12.01 10:52:30 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:52:30 INFO  time: compiled day1_bd2c96d2de in 0.72s[0m
+2023.12.01 10:52:41 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:52:41 INFO  time: compiled day1_bd2c96d2de in 0.65s[0m
+2023.12.01 10:53:34 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:53:34 INFO  time: compiled day1_bd2c96d2de in 0.58s[0m
+2023.12.01 10:53:45 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:53:45 INFO  time: compiled day1_bd2c96d2de in 0.26s[0m
+2023.12.01 10:53:47 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:53:47 INFO  time: compiled day1_bd2c96d2de in 0.44s[0m
+2023.12.01 10:54:18 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:54:18 INFO  time: compiled day1_bd2c96d2de in 0.3s[0m
+2023.12.01 10:54:22 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:54:22 INFO  time: compiled day1_bd2c96d2de in 1s[0m
+2023.12.01 10:54:52 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:54:52 INFO  time: compiled day1_bd2c96d2de in 0.63s[0m
+2023.12.01 10:55:02 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:55:02 INFO  time: compiled day1_bd2c96d2de in 0.62s[0m
+2023.12.01 10:55:07 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:55:07 INFO  time: compiled day1_bd2c96d2de in 0.39s[0m
+2023.12.01 10:55:18 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:55:18 INFO  time: compiled day1_bd2c96d2de in 0.64s[0m
+2023.12.01 10:55:21 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:55:21 INFO  time: compiled day1_bd2c96d2de in 0.73s[0m
+2023.12.01 10:55:33 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:55:33 INFO  time: compiled day1_bd2c96d2de in 0.42s[0m
+2023.12.01 10:55:44 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:55:44 INFO  time: compiled day1_bd2c96d2de in 0.38s[0m
+Dec 01, 2023 10:56:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1368
+Dec 01, 2023 10:56:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1392
+2023.12.01 10:56:28 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:56:28 INFO  time: compiled day1_bd2c96d2de in 0.46s[0m
+2023.12.01 10:56:33 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:56:33 INFO  time: compiled day1_bd2c96d2de in 0.35s[0m
+2023.12.01 10:56:41 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:56:41 INFO  time: compiled day1_bd2c96d2de in 0.35s[0m
+2023.12.01 10:57:08 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:57:08 INFO  time: compiled day1_bd2c96d2de in 0.42s[0m
+2023.12.01 10:57:11 ERROR Failed to tokenize input for semantic tokens for /home/thelesso/dev/adventOfCode/day1/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:7: error: Invalid literal number
+            sum 0math.pow(numbers.head.toInt,2)
+                ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:820)
+	at scala.meta.internal.tokenizers.LegacyScanner.restOfUncertainToken$1(LegacyScanner.scala:864)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:872)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:330)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:332)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+Dec 01, 2023 10:57:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1577
+2023.12.01 10:57:12 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:57:12 INFO  time: compiled day1_bd2c96d2de in 0.58s[0m
+2023.12.01 10:57:13 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:57:16 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:57:17 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:57:17 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:57:17 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:57:17 INFO  time: compiled day1_bd2c96d2de in 0.71s[0m
+2023.12.01 10:57:19 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:57:32 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:57:34 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:57:35 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:57:35 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:57:36 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:57:37 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:57:38 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:57:39 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:57:39 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:57:48 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:57:48 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:57:49 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:57:50 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:57:50 INFO  time: compiled day1_bd2c96d2de in 0.53s[0m
+2023.12.01 10:57:51 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:57:54 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:57:56 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:57:56 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:57:56 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:57:56 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:57:59 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:57:59 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:57:59 INFO  time: compiled day1_bd2c96d2de in 0.49s[0m
+2023.12.01 10:58:00 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:58:28 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:58:28 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:58:29 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:58:29 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:58:29 INFO  time: compiled day1_bd2c96d2de in 0.49s[0m
+2023.12.01 10:58:30 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:58:33 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:58:35 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:58:39 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:58:40 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:58:42 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:58:44 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:58:45 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:58:48 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:58:48 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:58:49 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:58:53 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:58:54 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:58:55 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:58:56 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:58:56 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:58:57 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:58:57 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:58:58 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:59:01 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:59:02 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:59:03 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:59:04 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:59:06 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:59:08 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:59:08 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:59:08 INFO  time: compiled day1_bd2c96d2de in 0.46s[0m
+2023.12.01 10:59:09 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:59:14 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:59:15 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:59:16 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:59:16 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:59:18 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:59:18 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:59:19 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:59:19 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:59:19 INFO  time: compiled day1_bd2c96d2de in 0.45s[0m
+2023.12.01 10:59:20 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:59:29 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:59:32 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:59:32 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:59:32 INFO  time: compiled day1_bd2c96d2de in 0.47s[0m
+2023.12.01 10:59:33 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:59:40 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:59:40 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:59:40 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:59:40 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:59:40 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 10:59:40 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:59:40 INFO  time: compiled day1_bd2c96d2de in 0.36s[0m
+2023.12.01 10:59:51 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:59:51 INFO  Deduplicating compilation of day1_bd2c96d2de from bsp client 'scala-cli 1.0.4' (since 13m 35.587s)[0m
+2023.12.01 10:59:51 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:59:51 INFO  time: compiled day1_bd2c96d2de in 0.3s[0m
+2023.12.01 10:59:53 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 10:59:53 INFO  time: compiled day1_bd2c96d2de in 0.34s[0m
+2023.12.01 11:00:20 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 11:00:20 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 11:00:20 INFO  time: compiled day1_bd2c96d2de in 0.34s[0m
+2023.12.01 11:02:39 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 11:02:39 INFO  time: compiled day1_bd2c96d2de in 0.41s[0m
+2023.12.01 11:02:56 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 11:02:56 INFO  time: compiled day1_bd2c96d2de in 0.35s[0m
+2023.12.01 11:02:59 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 11:02:59 INFO  time: compiled day1_bd2c96d2de in 0.27s[0m
+2023.12.01 11:04:28 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 11:04:28 INFO  time: compiled day1_bd2c96d2de in 0.32s[0m
+Dec 01, 2023 11:10:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2327
+2023.12.01 11:37:49 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 11:37:49 INFO  time: compiled day1_bd2c96d2de in 90ms[0m
+2023.12.01 11:37:52 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 11:37:52 INFO  time: compiled day1_bd2c96d2de in 0.23s[0m
+2023.12.01 11:37:54 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 11:37:54 INFO  time: compiled day1_bd2c96d2de in 0.3s[0m
+2023.12.01 11:38:01 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 11:38:01 INFO  time: compiled day1_bd2c96d2de in 0.29s[0m
+2023.12.01 11:53:03 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 11:53:03 INFO  time: compiled day1_bd2c96d2de in 0.34s[0m
+2023.12.01 11:55:04 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 11:55:04 INFO  time: compiled day1_bd2c96d2de in 0.34s[0m
+2023.12.01 11:55:11 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 11:55:11 INFO  time: compiled day1_bd2c96d2de in 0.33s[0m
+2023.12.01 11:55:15 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 11:55:15 INFO  time: compiled day1_bd2c96d2de in 0.35s[0m
+2023.12.01 11:55:21 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 11:55:21 INFO  time: compiled day1_bd2c96d2de in 0.3s[0m
+2023.12.01 11:55:33 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 11:55:33 INFO  time: compiled day1_bd2c96d2de in 0.27s[0m
+2023.12.01 11:56:37 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 11:56:37 INFO  time: compiled day1_bd2c96d2de in 0.38s[0m
+2023.12.01 11:56:52 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 11:56:52 INFO  time: compiled day1_bd2c96d2de in 0.45s[0m
+2023.12.01 11:58:01 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 11:58:01 INFO  time: compiled day1_bd2c96d2de in 0.45s[0m
+2023.12.01 11:58:20 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 11:58:20 INFO  time: compiled day1_bd2c96d2de in 0.31s[0m
+2023.12.01 11:58:25 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 11:58:25 INFO  time: compiled day1_bd2c96d2de in 0.26s[0m
+2023.12.01 12:45:13 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 12:45:13 INFO  time: compiled day1_bd2c96d2de in 0.35s[0m
+2023.12.01 12:45:33 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 12:45:33 INFO  time: compiled day1_bd2c96d2de in 0.32s[0m
+2023.12.01 12:45:43 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 12:45:43 INFO  time: compiled day1_bd2c96d2de in 0.23s[0m
+2023.12.01 12:45:43 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 12:45:49 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 12:45:50 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 12:45:50 INFO  time: compiled day1_bd2c96d2de in 0.15s[0m
+2023.12.01 12:45:50 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 12:45:52 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 12:45:53 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 12:45:55 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 12:45:55 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 12:45:55 INFO  time: compiled day1_bd2c96d2de in 0.18s[0m
+2023.12.01 12:45:57 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 12:45:57 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 12:45:57 INFO  time: compiled day1_bd2c96d2de in 0.28s[0m
+2023.12.01 16:29:42 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 16:29:42 INFO  time: compiled day1_bd2c96d2de in 0.19s[0m
+2023.12.01 16:29:46 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 16:29:46 INFO  time: compiled day1_bd2c96d2de in 0.4s[0m
+2023.12.01 16:29:51 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 16:29:51 INFO  time: compiled day1_bd2c96d2de in 0.33s[0m
+2023.12.01 16:30:11 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 16:30:11 INFO  time: compiled day1_bd2c96d2de in 0.17s[0m
+2023.12.01 16:30:23 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 16:30:23 INFO  time: compiled day1_bd2c96d2de in 0.2s[0m
+2023.12.01 16:30:29 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 16:30:29 INFO  time: compiled day1_bd2c96d2de in 0.34s[0m
+2023.12.01 16:30:57 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 16:30:57 INFO  time: compiled day1_bd2c96d2de in 0.16s[0m
+2023.12.01 16:31:03 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 16:31:03 INFO  time: compiled day1_bd2c96d2de in 0.36s[0m
+2023.12.01 16:31:08 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 16:31:08 INFO  time: compiled day1_bd2c96d2de in 0.3s[0m
+2023.12.01 16:31:20 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 16:31:20 INFO  time: compiled day1_bd2c96d2de in 0.28s[0m
+2023.12.01 16:31:33 ERROR Failed to tokenize input for semantic tokens for /home/thelesso/dev/adventOfCode/day1/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:19: error: unclosed string literal
+        case "zer
+             ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2023.12.01 16:31:34 ERROR Failed to tokenize input for semantic tokens for /home/thelesso/dev/adventOfCode/day1/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:19: error: unclosed string literal
+        case "zero
+             ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2023.12.01 16:31:37 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 16:31:37 INFO  time: compiled day1_bd2c96d2de in 0.29s[0m
+2023.12.01 16:31:51 ERROR Failed to tokenize input for semantic tokens for /home/thelesso/dev/adventOfCode/day1/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:22: error: unclosed string literal
+        case "zero
+             ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2023.12.01 16:32:06 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 16:32:06 INFO  time: compiled day1_bd2c96d2de in 0.3s[0m
+2023.12.01 16:32:24 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 16:32:24 INFO  time: compiled day1_bd2c96d2de in 0.32s[0m
+2023.12.01 16:32:30 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 16:32:30 INFO  time: compiled day1_bd2c96d2de in 0.36s[0m
+2023.12.01 16:32:42 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 16:32:42 INFO  time: compiled day1_bd2c96d2de in 0.27s[0m
+Dec 01, 2023 4:33:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4266
+2023.12.01 16:33:36 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 16:33:36 INFO  time: compiled day1_bd2c96d2de in 0.4s[0m
+2023.12.01 16:33:39 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 16:33:39 INFO  time: compiled day1_bd2c96d2de in 0.39s[0m
+2023.12.01 16:34:07 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 16:34:07 INFO  time: compiled day1_bd2c96d2de in 0.28s[0m
+2023.12.01 16:34:21 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 16:34:21 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 16:34:21 INFO  time: compiled day1_bd2c96d2de in 0.33s[0m
+2023.12.01 16:37:44 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 16:37:44 INFO  time: compiled day1_bd2c96d2de in 0.4s[0m
+2023.12.01 17:02:51 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:02:51 INFO  time: compiled day1_bd2c96d2de in 0.34s[0m
+2023.12.01 17:03:35 ERROR Failed to tokenize input for semantic tokens for /home/thelesso/dev/adventOfCode/day1/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:38: error: unclosed comment
+    /*
+    ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2023.12.01 17:03:37 ERROR Failed to tokenize input for semantic tokens for /home/thelesso/dev/adventOfCode/day1/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:38: error: unclosed comment
+    /*
+    ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2023.12.01 17:03:39 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:03:39 INFO  time: compiled day1_bd2c96d2de in 0.31s[0m
+2023.12.01 17:16:15 ERROR Failed to tokenize input for semantic tokens for /home/thelesso/dev/adventOfCode/day1/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:38: error: unclosed comment
+    /*
+    ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2023.12.01 17:16:20 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:16:20 INFO  time: compiled day1_bd2c96d2de in 0.34s[0m
+2023.12.01 17:21:05 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:21:05 INFO  time: compiled day1_bd2c96d2de in 0.32s[0m
+2023.12.01 17:21:31 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:21:31 INFO  time: compiled day1_bd2c96d2de in 0.16s[0m
+2023.12.01 17:22:21 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:22:21 INFO  time: compiled day1_bd2c96d2de in 0.41s[0m
+2023.12.01 17:22:46 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:22:46 INFO  time: compiled day1_bd2c96d2de in 0.27s[0m
+2023.12.01 17:24:28 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:24:28 INFO  time: compiled day1_bd2c96d2de in 0.25s[0m
+2023.12.01 17:24:44 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:24:44 INFO  time: compiled day1_bd2c96d2de in 0.25s[0m
+2023.12.01 17:29:37 ERROR Failed to tokenize input for semantic tokens for /home/thelesso/dev/adventOfCode/day1/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:37: error: invalid escape character
+    val regex = "\d|one|two|three|four|five|six|seven|eight|nine"
+                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.invalidEscape(LegacyScanner.scala:744)
+	at scala.meta.internal.tokenizers.LegacyScanner.getLitChar(LegacyScanner.scala:732)
+	at scala.meta.internal.tokenizers.LegacyScanner.getLitChars(LegacyScanner.scala:753)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:546)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2023.12.01 17:29:38 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:29:38 INFO  time: compiled day1_bd2c96d2de in 0.21s[0m
+2023.12.01 17:29:38 ERROR Failed to tokenize input for semantic tokens for /home/thelesso/dev/adventOfCode/day1/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:37: error: invalid escape character
+    val regex = "\d|one|two|three|four|five|six|seven|eight|nine"
+                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.invalidEscape(LegacyScanner.scala:744)
+	at scala.meta.internal.tokenizers.LegacyScanner.getLitChar(LegacyScanner.scala:732)
+	at scala.meta.internal.tokenizers.LegacyScanner.getLitChars(LegacyScanner.scala:753)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:546)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2023.12.01 17:29:55 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:29:55 INFO  time: compiled day1_bd2c96d2de in 0.27s[0m
+2023.12.01 17:30:51 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:30:51 INFO  time: compiled day1_bd2c96d2de in 0.21s[0m
+2023.12.01 17:31:09 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:31:09 INFO  time: compiled day1_bd2c96d2de in 0.17s[0m
+2023.12.01 17:31:17 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:31:17 INFO  time: compiled day1_bd2c96d2de in 0.24s[0m
+2023.12.01 17:31:21 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:31:21 INFO  time: compiled day1_bd2c96d2de in 0.33s[0m
+2023.12.01 17:31:29 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:31:29 INFO  time: compiled day1_bd2c96d2de in 0.29s[0m
+2023.12.01 17:31:39 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:31:39 INFO  time: compiled day1_bd2c96d2de in 0.25s[0m
+2023.12.01 17:31:56 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:31:56 INFO  time: compiled day1_bd2c96d2de in 0.13s[0m
+2023.12.01 17:32:02 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:32:02 INFO  time: compiled day1_bd2c96d2de in 0.23s[0m
+2023.12.01 17:32:12 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:32:12 INFO  time: compiled day1_bd2c96d2de in 0.26s[0m
+2023.12.01 17:33:05 ERROR Failed to tokenize input for semantic tokens for /home/thelesso/dev/adventOfCode/day1/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:37: error: invalid escape character
+    val last = "\|one|two|three|four|five|six|seven|eight|nine".reverse.r.
+                 ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.invalidEscape(LegacyScanner.scala:744)
+	at scala.meta.internal.tokenizers.LegacyScanner.getLitChar(LegacyScanner.scala:732)
+	at scala.meta.internal.tokenizers.LegacyScanner.getLitChars(LegacyScanner.scala:753)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:546)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2023.12.01 17:33:06 ERROR Failed to tokenize input for semantic tokens for /home/thelesso/dev/adventOfCode/day1/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:37: error: unclosed string interpolation
+    val last = one|two|three|four|five|six|seven|eight|nine".reverse.r.
+                                                            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:659)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:357)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2023.12.01 17:33:07 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:33:07 INFO  time: compiled day1_bd2c96d2de in 0.25s[0m
+2023.12.01 17:33:07 ERROR Failed to tokenize input for semantic tokens for /home/thelesso/dev/adventOfCode/day1/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:37: error: unclosed string interpolation
+    val last = one|two|three|four|five|six|seven|eight|nine".reverse.r.
+                                                            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:659)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:357)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2023.12.01 17:33:07 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 17:33:09 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 17:33:09 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 17:33:09 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 17:33:09 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+Exception in thread "pool-6-thread-2" java.lang.Error: java.lang.InterruptedException2023.12.01 17:33:09
+ WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2023.12.01 17:33:09 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:33:09 INFO  time: compiled day1_bd2c96d2de in 0.38s[0m
+2023.12.01 17:33:10 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 17:33:11 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 17:33:12 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 17:33:13 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 17:33:14 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 17:33:16 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 17:33:17 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 17:33:17 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 17:33:18 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 17:33:18 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 17:33:19 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 17:33:19 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:33:19 INFO  time: compiled day1_bd2c96d2de in 0.16s[0m
+2023.12.01 17:33:20 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 17:33:22 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 17:33:23 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 17:33:25 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 17:33:25 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:33:25 INFO  time: compiled day1_bd2c96d2de in 0.25s[0m
+2023.12.01 17:34:16 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:34:16 INFO  time: compiled day1_bd2c96d2de in 0.45s[0m
+2023.12.01 17:34:28 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:34:28 INFO  time: compiled day1_bd2c96d2de in 0.17s[0m
+2023.12.01 17:34:29 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:34:29 INFO  time: compiled day1_bd2c96d2de in 0.22s[0m
+2023.12.01 17:34:46 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:34:46 INFO  time: compiled day1_bd2c96d2de in 0.32s[0m
+2023.12.01 17:35:02 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:35:02 INFO  time: compiled day1_bd2c96d2de in 0.33s[0m
+2023.12.01 17:35:13 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:35:13 INFO  time: compiled day1_bd2c96d2de in 0.13s[0m
+2023.12.01 17:35:13 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 17:35:18 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 17:35:19 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 17:35:50 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:35:50 INFO  time: compiled day1_bd2c96d2de in 0.3s[0m
+2023.12.01 17:36:16 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:36:16 INFO  time: compiled day1_bd2c96d2de in 0.24s[0m
+2023.12.01 17:36:26 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:36:26 INFO  time: compiled day1_bd2c96d2de in 0.22s[0m
+2023.12.01 17:36:30 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:36:30 INFO  time: compiled day1_bd2c96d2de in 0.22s[0m
+2023.12.01 17:36:41 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:36:41 INFO  time: compiled day1_bd2c96d2de in 0.26s[0m
+2023.12.01 17:36:44 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:36:44 INFO  time: compiled day1_bd2c96d2de in 0.28s[0m
+2023.12.01 17:37:02 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:37:02 INFO  time: compiled day1_bd2c96d2de in 0.16s[0m
+2023.12.01 17:37:11 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:37:11 INFO  time: compiled day1_bd2c96d2de in 0.34s[0m
+2023.12.01 17:37:21 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:37:21 INFO  time: compiled day1_bd2c96d2de in 0.27s[0m
+2023.12.01 17:38:15 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:38:15 INFO  time: compiled day1_bd2c96d2de in 0.3s[0m
+2023.12.01 17:38:47 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:38:47 INFO  time: compiled day1_bd2c96d2de in 0.27s[0m
+2023.12.01 17:39:20 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:39:20 INFO  time: compiled day1_bd2c96d2de in 0.3s[0m
+2023.12.01 17:39:35 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:39:35 INFO  time: compiled day1_bd2c96d2de in 0.34s[0m
+2023.12.01 17:39:44 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:39:44 INFO  time: compiled day1_bd2c96d2de in 0.28s[0m
+2023.12.01 17:40:06 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:40:06 INFO  time: compiled day1_bd2c96d2de in 0.24s[0m
+2023.12.01 17:40:11 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:40:11 INFO  time: compiled day1_bd2c96d2de in 0.24s[0m
+2023.12.01 17:40:24 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 17:40:24 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:40:24 INFO  time: compiled day1_bd2c96d2de in 0.27s[0m
+2023.12.01 17:41:36 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:41:36 INFO  time: compiled day1_bd2c96d2de in 0.24s[0m
+2023.12.01 17:41:39 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:41:39 INFO  time: compiled day1_bd2c96d2de in 0.28s[0m
+2023.12.01 17:41:45 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:41:45 INFO  time: compiled day1_bd2c96d2de in 0.24s[0m
+2023.12.01 17:41:50 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:41:50 INFO  time: compiled day1_bd2c96d2de in 0.26s[0m
+2023.12.01 17:41:53 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:41:53 INFO  time: compiled day1_bd2c96d2de in 0.27s[0m
+2023.12.01 17:44:31 WARN  Could not load snapshot text for /home/thelesso/dev/adventOfCode/day1/Main.scala[0m
+2023.12.01 17:44:31 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:44:31 INFO  time: compiled day1_bd2c96d2de in 0.33s[0m
+2023.12.01 17:47:49 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:47:51 INFO  time: compiled day1_bd2c96d2de in 1.36s[0m
+2023.12.01 17:47:52 ERROR Failed to tokenize input for semantic tokens for /home/thelesso/dev/adventOfCode/day1/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:17: error: unclosed string literal
+    case "zero"  => "0
+                    ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2023.12.01 17:47:52 ERROR Failed to tokenize input for semantic tokens for /home/thelesso/dev/adventOfCode/day1/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:17: error: unclosed string literal
+    case "zero"  => ""0"
+                       ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2023.12.01 17:47:53 ERROR Failed to tokenize input for semantic tokens for /home/thelesso/dev/adventOfCode/day1/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:17: error: unclosed multi-line string literal
+    case "zero"  => """
+                    ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getRawStringLit(LegacyScanner.scala:567)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:366)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2023.12.01 17:47:55 ERROR Failed to tokenize input for semantic tokens for /home/thelesso/dev/adventOfCode/day1/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:18: error: unclosed string literal
+    case "one"   => 1"
+                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2023.12.01 17:47:57 ERROR Failed to tokenize input for semantic tokens for /home/thelesso/dev/adventOfCode/day1/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:19: error: unclosed string literal
+    case "two"   => 2"
+                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2023.12.01 17:47:59 ERROR Failed to tokenize input for semantic tokens for /home/thelesso/dev/adventOfCode/day1/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:20: error: unclosed string literal
+    case "three" => 3"
+                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2023.12.01 17:48:00 ERROR Failed to tokenize input for semantic tokens for /home/thelesso/dev/adventOfCode/day1/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:21: error: unclosed string literal
+    case "four"  => 4"
+                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2023.12.01 17:48:01 ERROR Failed to tokenize input for semantic tokens for /home/thelesso/dev/adventOfCode/day1/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:21: error: unclosed string literal
+    case "four"  => 4"
+                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2023.12.01 17:48:02 ERROR Failed to tokenize input for semantic tokens for /home/thelesso/dev/adventOfCode/day1/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:21: error: unclosed string literal
+    case "four"  => 4"
+                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2023.12.01 17:48:03 ERROR Failed to tokenize input for semantic tokens for /home/thelesso/dev/adventOfCode/day1/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:21: error: unclosed string literal
+    case "four"  => 4"
+                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2023.12.01 17:48:03 ERROR Failed to tokenize input for semantic tokens for /home/thelesso/dev/adventOfCode/day1/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:21: error: unclosed string literal
+    case "four"  => 4"
+                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2023.12.01 17:48:04 ERROR Failed to tokenize input for semantic tokens for /home/thelesso/dev/adventOfCode/day1/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:21: error: unclosed string literal
+    case "four"  => 4"
+                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2023.12.01 17:48:05 ERROR Failed to tokenize input for semantic tokens for /home/thelesso/dev/adventOfCode/day1/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:21: error: unclosed string literal
+    case "four"  => 4"
+                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2023.12.01 17:48:06 ERROR Failed to tokenize input for semantic tokens for /home/thelesso/dev/adventOfCode/day1/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:21: error: unclosed string literal
+    case "four"  => 4"
+                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2023.12.01 17:48:07 ERROR Failed to tokenize input for semantic tokens for /home/thelesso/dev/adventOfCode/day1/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:21: error: unclosed string literal
+    case "four"  => 4"
+                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2023.12.01 17:48:08 ERROR Failed to tokenize input for semantic tokens for /home/thelesso/dev/adventOfCode/day1/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:21: error: unclosed string literal
+    case "four"  => 4"
+                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2023.12.01 17:48:09 ERROR Failed to tokenize input for semantic tokens for /home/thelesso/dev/adventOfCode/day1/Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:21: error: unclosed string literal
+    case "four"  => 4"
+                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+2023.12.01 17:48:10 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:48:10 INFO  time: compiled day1_bd2c96d2de in 0.35s[0m
+2023.12.01 17:48:13 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:48:13 INFO  time: compiled day1_bd2c96d2de in 0.23s[0m
+2023.12.01 17:48:22 INFO  compiling day1_bd2c96d2de (1 scala source)[0m
+2023.12.01 17:48:22 INFO  time: compiled day1_bd2c96d2de in 0.23s[0m
+2023.12.01 17:53:16 INFO  Shutting down server[0m
+2023.12.01 17:53:16 INFO  shutting down Metals[0m
+2023.12.01 17:53:16 INFO  Shut down connection with build server.[0m
+2023.12.01 17:53:16 INFO  BSP server: Dec 01, 2023 5:53:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification[0m
+2023.12.01 17:53:16 INFO  BSP server: WARNING: Notification threw an exception: {[0m
+2023.12.01 17:53:16 INFO  BSP server:   "jsonrpc": "2.0",[0m
+2023.12.01 17:53:16 INFO  BSP server:   "method": "build/exit",[0m
+2023.12.01 17:53:16 INFO  BSP server:   "params": null[0m
+2023.12.01 17:53:16 INFO  BSP server: }[0m
+2023.12.01 17:53:16 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException[0m
+2023.12.01 17:53:16 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)[0m
+2023.12.01 17:53:16 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)[0m
+2023.12.01 17:53:16 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)[0m
+2023.12.01 17:53:16 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)[0m
+2023.12.01 17:53:16 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)[0m
+2023.12.01 17:53:16 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)[0m
+2023.12.01 17:53:16 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)[0m
+2023.12.01 17:53:16 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)[0m
+2023.12.01 17:53:16 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+2023.12.01 17:53:16 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+2023.12.01 17:53:16 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+2023.12.01 17:53:16 INFO  BSP server: 	at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)[0m
+2023.12.01 17:53:16 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)[0m
+2023.12.01 17:53:16 INFO  BSP server: 	at com.oracle.svm.core.posix.thread.PosixPlatformThreads.pthreadStartRoutine(PosixPlatformThreads.java:203)[0m
+2023.12.01 17:53:16 INFO  BSP server: Caused by: java.lang.reflect.InvocationTargetException[0m
+2023.12.01 17:53:16 INFO  BSP server: 	at java.base@17.0.6/java.lang.reflect.Method.invoke(Method.java:568)[0m
+2023.12.01 17:53:16 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)[0m
+2023.12.01 17:53:16 INFO  BSP server: 	... 13 more[0m
+2023.12.01 17:53:16 INFO  BSP server: Caused by: java.lang.RuntimeException: BSP server not initialized yet[0m
+2023.12.01 17:53:16 INFO  BSP server: 	at scala.sys.package$.error(package.scala:27)[0m
+2023.12.01 17:53:16 INFO  BSP server: 	at scala.build.bsp.BloopSession$Reference.get(BloopSession.scala:70)[0m
+2023.12.01 17:53:16 INFO  BSP server: 	at scala.build.bsp.BspImpl.$anonfun$11(BspImpl.scala:477)[0m
+2023.12.01 17:53:16 INFO  BSP server: 	at scala.build.bsp.BuildServerProxy.onBuildExit(BuildServerProxy.scala:29)[0m
+2023.12.01 17:53:16 INFO  BSP server: 	... 15 more[0m
+2023.12.01 17:53:16 INFO  BSP server: [0m
+2023.12.01 17:53:16 INFO  Exiting server[0m
+2023.12.01 18:01:47 INFO  Started: Metals version 1.1.0 in folders '/home/thelesso/dev/adventOfCode/day1' for client Visual Studio Code 1.83.1.
+2023.12.01 18:01:48 INFO  Attempting to connect to the build server...
+2023.12.01 18:01:48 WARN  No build session currently active to reload.
+2023.12.01 18:01:48 INFO  Running BSP server List(/home/thelesso/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/thelesso/dev/adventOfCode/day1/.scala-build/ide-options-v2.json, /home/thelesso/dev/adventOfCode/day1)
+2023.12.01 18:01:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/thelesso/dev/adventOfCode/day1/.metals/bsp.trace.json or /home/thelesso/.cache/metals/bsp.trace.json
+2023.12.01 18:01:50 INFO  time: Connected to build server in 1.13s
+2023.12.01 18:01:50 INFO  Connected to Build server: scala-cli v1.0.4
+2023.12.01 18:01:50 INFO  compiling day1_bd2c96d2de (1 scala source)
+2023.12.01 18:01:53 INFO  no build target found for /home/thelesso/dev/adventOfCode/day1/Run.scala. Using presentation compiler with project's scala-library version: 3.3.1
+Dec 01, 2023 6:01:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2023.12.01 18:01:54 INFO  time: indexed workspace in 1.54s
+2023.12.01 18:02:24 INFO  compiling day1_bd2c96d2de (1 scala source)
+2023.12.01 18:02:24 INFO  time: compiled day1_bd2c96d2de in 0.56s
+2023.12.01 18:02:36 INFO  compiling day1_bd2c96d2de (1 scala source)
+2023.12.01 18:02:36 INFO  time: compiled day1_bd2c96d2de in 0.34s
+2023.12.01 18:02:44 INFO  compiling day1_bd2c96d2de (1 scala source)
+2023.12.01 18:02:44 INFO  time: compiled day1_bd2c96d2de in 0.19s
+2023.12.01 18:02:59 INFO  compiling day1_bd2c96d2de (1 scala source)
+2023.12.01 18:02:59 INFO  time: compiled day1_bd2c96d2de in 0.31s
+Dec 01, 2023 6:03:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 221
+Dec 01, 2023 6:03:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 251
+2023.12.01 18:03:27 INFO  compiling day1_bd2c96d2de (1 scala source)
+2023.12.01 18:03:27 INFO  time: compiled day1_bd2c96d2de in 0.3s
+2023.12.01 18:03:57 INFO  compiling day1_bd2c96d2de (1 scala source)
+2023.12.01 18:03:57 INFO  time: compiled day1_bd2c96d2de in 0.26s
+2023.12.01 18:04:12 INFO  compiling day1_bd2c96d2de (1 scala source)
+2023.12.01 18:04:12 INFO  time: compiled day1_bd2c96d2de in 0.35s
+2023.12.01 18:04:20 INFO  compiling day1_bd2c96d2de (1 scala source)
+2023.12.01 18:04:20 INFO  time: compiled day1_bd2c96d2de in 0.28s
+Dec 01, 2023 6:04:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 434
+2023.12.01 18:04:38 INFO  compiling day1_bd2c96d2de (1 scala source)
+2023.12.01 18:04:38 INFO  time: compiled day1_bd2c96d2de in 0.33s
+2023.12.01 18:04:41 INFO  compiling day1_bd2c96d2de (1 scala source)
+2023.12.01 18:04:41 INFO  time: compiled day1_bd2c96d2de in 0.42s
+2023.12.01 18:04:48 INFO  compiling day1_bd2c96d2de (1 scala source)
+2023.12.01 18:04:48 INFO  time: compiled day1_bd2c96d2de in 0.36s
+2023.12.01 18:04:53 INFO  compiling day1_bd2c96d2de (1 scala source)
+2023.12.01 18:04:53 INFO  time: compiled day1_bd2c96d2de in 0.32s
+2023.12.01 18:05:15 INFO  compiling day1_bd2c96d2de (1 scala source)
+2023.12.01 18:05:15 INFO  time: compiled day1_bd2c96d2de in 0.27s
+2023.12.01 18:05:35 INFO  Cancelling compilation on scala-cli server
+2023.12.01 18:05:35 INFO  Disconnecting from scala-cli session...
+2023.12.01 18:05:35 INFO  compiling day1_bd2c96d2de (2 scala sources)
+2023.12.01 18:05:35 INFO  Shut down connection with build server.
+2023.12.01 18:05:35 INFO  BSP server: Dec 01, 2023 6:05:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2023.12.01 18:05:35 INFO  Attempting to connect to the build server...
+2023.12.01 18:05:35 INFO  Running BSP server List(/home/thelesso/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/thelesso/dev/adventOfCode/day1/.scala-build/ide-options-v2.json, /home/thelesso/dev/adventOfCode/day1)
+2023.12.01 18:05:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/thelesso/dev/adventOfCode/day1/.metals/bsp.trace.json or /home/thelesso/.cache/metals/bsp.trace.json
+2023.12.01 18:05:35 INFO  time: Connected to build server in 0.88s
+2023.12.01 18:05:35 INFO  Connected to Build server: scala-cli v1.0.4
+2023.12.01 18:05:36 INFO  compiling day1_bd2c96d2de (2 scala sources)
+2023.12.01 18:05:36 INFO  time: indexed workspace in 0.47s
+2023.12.01 18:05:38 INFO  time: compiled day1_bd2c96d2de in 1.54s
+2023.12.01 18:05:38 INFO  Refreshed build after change
+2023.12.01 18:06:17 INFO  compiling day1_bd2c96d2de (1 scala source)
+2023.12.01 18:06:17 INFO  time: compiled day1_bd2c96d2de in 0.26s
+2023.12.01 18:06:24 INFO  compiling day1_bd2c96d2de (1 scala source)
+2023.12.01 18:06:24 INFO  time: compiled day1_bd2c96d2de in 0.3s
+2023.12.01 18:06:42 INFO  compiling day1_bd2c96d2de (1 scala source)
+2023.12.01 18:06:42 INFO  time: compiled day1_bd2c96d2de in 0.32s
+2023.12.01 18:07:07 INFO  compiling day1_bd2c96d2de (1 scala source)
+2023.12.01 18:07:07 INFO  time: compiled day1_bd2c96d2de in 0.38s
+2023.12.01 18:09:28 INFO  compiling day1_bd2c96d2de (1 scala source)
+2023.12.01 18:09:28 INFO  time: compiled day1_bd2c96d2de in 0.5s
+2023.12.01 18:10:25 INFO  compiling day1_bd2c96d2de (1 scala source)
+2023.12.01 18:10:25 INFO  time: compiled day1_bd2c96d2de in 0.37s
+2023.12.01 18:10:28 INFO  compiling day1_bd2c96d2de (1 scala source)
+2023.12.01 18:10:28 INFO  time: compiled day1_bd2c96d2de in 0.49s
+2023.12.01 18:10:50 INFO  Shutting down server
+2023.12.01 18:10:50 INFO  shutting down Metals
+2023.12.01 18:10:50 INFO  Shut down connection with build server.
+2023.12.01 18:10:50 INFO  Exiting server
+2023.12.02 10:58:19 INFO  Started: Metals version 1.1.0 in folders '/home/thelesso/dev/adventOfCode/day1' for client Visual Studio Code 1.83.1.
+2023.12.02 10:58:21 INFO  Attempting to connect to the build server...
+2023.12.02 10:58:21 WARN  No build session currently active to reload.
+2023.12.02 10:58:21 INFO  Running BSP server List(/home/thelesso/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/thelesso/dev/adventOfCode/day1/.scala-build/ide-options-v2.json, /home/thelesso/dev/adventOfCode/day1)
+2023.12.02 10:58:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/thelesso/dev/adventOfCode/day1/.metals/bsp.trace.json or /home/thelesso/.cache/metals/bsp.trace.json
+Dec 02, 2023 10:58:23 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.12.02 10:58:41 INFO  BSP server: Starting compilation server
+2023.12.02 10:58:45 INFO  no build target found for /home/thelesso/dev/adventOfCode/day1/Main.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.02 10:59:05 INFO  time: Connected to build server in 44s
+2023.12.02 10:59:05 INFO  Connected to Build server: scala-cli v1.0.4
+2023.12.02 10:59:05 INFO  time: Imported build in 0.22s
+2023.12.02 10:59:27 INFO  Shutting down server
+2023.12.02 10:59:27 INFO  shutting down Metals
+2023.12.02 10:59:27 INFO  Shut down connection with build server.
